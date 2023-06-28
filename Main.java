@@ -24,23 +24,23 @@ switch (choice)
     System.out.println ("$98,345 average salary in South Florida!");
     break;
   case 2:
-    System.out.println ("US - 100 Best News Jobs!");
+    System.out.println ("US News - 100 Best Jobs!");
     break;
   case 3:
-    System.out.println ("Top 10-Forbes in demand jobs");
+    System.out.println ("Top 10 Forbes In-Demand Jobs");
     break;
   case 4:
-      System.out.println ("Current students:");
+      System.out.println ("Current Students:");
     while (fileScanner.hasNextLine()){
       names = fileScanner.nextLine();
       System.out.println (names);
     }
       break;
   case 5:
-    System.out.println ();
+    System.out.println();
     break;
   default:
-    System.out.println ("Invalid choice, please try again");
+    System.out.println ();
     break;
   
   }
